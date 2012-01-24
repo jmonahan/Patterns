@@ -2,6 +2,25 @@
 
 This is intended to be a white label style rails app to set you up with the building blocks of a successful UI and prototyping environment.  The goal is to put in a place a solid foundation of how to structure the rails UI in regards to CSS structure, javascript and common UI patterns.  It will also demonstrate how to wrap up that structure into a UI pattern library that has a clear separation of UI component/pattern logic from the everyday implementation in your front-end implementation work.
 
+
+
+
+== Notes dump 
+
+body_id = use for an all encompassing override.  While it's not recommended to use on a regular basis, it's good for those pesky one off solutions
+
+body_class = another way to override
+
+body class has the layout name set in it.  It helps for overriding certain views/partials based on layout. For example you might have a partial that displays a table of contents. Perhaps you want style it differently in a a 2 column layout versus a full page layout.
+
+
+
+
+
+
+
+
+
 == Getting Started
 
 TBD

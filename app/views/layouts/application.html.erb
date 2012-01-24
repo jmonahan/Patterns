@@ -2,13 +2,22 @@
 <html>
 <head>
   <title>Patterns</title>
-  <%= stylesheet_link_tag    "application" %>
+  <%= render "/structure/css"%>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="<%=@body_id%>" class="layout_application <%=@body_class%>">
+<div id="header">
+  <%= render "/structure/header"%>
+</div>
 
-<%= yield %>
+<div id="main">
+  <%= yield %>
+</div>
+
+<div id="footer">
+  <%= render "/structure/footer"%>
+</div>
 
 </body>
 </html>

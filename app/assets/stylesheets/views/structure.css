@@ -1,0 +1,43 @@
+/**
+ * Structure.css
+ *
+ * Corresponds with files in app/views/structure/
+ *
+ * TABLE OF CONTENTS
+ *
+ * =CSS
+ * =HEADER
+ *
+**/
+
+/**
+ * =CSS
+**/
+
+
+/**
+ * =HEADER
+**/
+.header {
+  background: #333;
+  color: #CCC;
+}
+.header .app_name {
+  font-size: 18px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "san-serif";
+  font-weight: 100;
+  float: left;
+}
+.header a{
+  color: #EEE;
+}
+.header .nav{
+  float: left;
+  padding-top: 6px;
+  margin-left: 48px;
+}
+.header .nav li {
+  float: left;
+  margin-right: 36px;
+  margin-left: 0;
+}

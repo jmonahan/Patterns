@@ -1,0 +1,32 @@
+/**
+ * Layout.css
+ *
+ * Contains the styling for your layout files
+ *
+ * TABLE OF CONTENTS
+ *
+ * =APPLICATION
+ * =TWO_COLUMN
+ *
+**/
+
+/**
+ * =APPLICATION
+**/
+.layout_application #header {
+  background: #333;
+  padding: 18px 12px;
+  margin-bottom: 12px;
+}
+.layout_application #main {
+  margin: 0 12px;
+}
+.layout_application #footer {
+  background: #333;
+  color: #CCC;
+  padding: 12px 12px;
+  margin-top: 36px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "san-serif";
+  font-weight: 100;
+}
+

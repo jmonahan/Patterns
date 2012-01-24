@@ -1,0 +1,86 @@
+/**
+ * Application.css
+ *
+ * Contains the default styling for key HTML elements for the application.
+ *
+ * TABLE OF CONTENTS
+ *
+ * =BODY
+ * =LINKS
+ * =HEADERS
+ * =LISTS
+ * =FLOAT_CLEAR
+**/
+
+/**
+ * =BODY
+**/
+body {
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/**
+ * =HEADERS
+**/
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+/**
+ * =HEADERS
+**/
+h1 {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+h3 {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+/**
+ * =LISTS
+**/
+li { 
+  margin-left: 12px;
+}
+
+
+
+
+/**
+ * = FLOAT_CLEAR
+**/
+.clear_float:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear_float {
+  display: inline-block;
+}
+<!--[if IE]>
+.clear_float {
+  zoom: 1;     /* triggers hasLayout */
+  display: block;     /* resets display for IE/Win */
+}
+<![endif]-->
