@@ -1,0 +1,68 @@
+/**
+ * Action_icons.css
+ *
+ * Styling for the actions_icons pattern.
+ *
+ * =BASE
+ * =DISABLED
+**/
+
+
+/**
+ * =BASE
+**/
+.action_icon_wrapper {
+  clear: both;
+  display: block;
+}
+a.action_icon {
+  cursor: pointer;
+  display: inline;
+  clear: both;
+}
+.action_icon .icon {
+  float: left;
+  height: 16px;
+  width: 16px;
+  background-image: url(../action_icons_sprite.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+.action_icon .text {
+  float: left;
+  line-height: 16px;
+}
+.action_icon .icon_add {
+  background-position: 0 0;
+}
+.action_icon .icon_remove {
+  background-position: -16px 0;
+}
+.action_icon .icon_delete {
+  background-position: -32px 0;
+}
+.action_icon .icon_edit {
+  background-position: -48px 0;
+}
+
+
+/**
+ * =DISABLED
+**/
+div.disabled {
+  color: #AAA;
+  cursor: auto;
+  display: block;
+}
+.disabled .icon_add {
+  background-position: 0 -16px;
+}
+.disabled .icon_remove {
+  background-position: -16px -16px;
+}
+.disabled .icon_delete {
+  background-position: -32px -16px;
+}
+.disabled .icon_edit {
+  background-position: -48px -16px;
+}

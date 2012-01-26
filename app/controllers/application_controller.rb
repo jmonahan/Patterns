@@ -3,8 +3,10 @@ class ApplicationController < ActionController::Base
   
   before_filter :init_ui_body
   
+  helper :patterns
+  
   def init_ui_body
-    @body_id = controller_name.classify
+    @body_id = controller_name.classify.pluralize.downcase + "_" + params[:action]
     @body_class = ""
   end
 end
