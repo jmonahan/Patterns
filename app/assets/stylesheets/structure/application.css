@@ -58,6 +58,9 @@ h4 {
 /**
  * =LISTS
 **/
+ol, ul {
+
+}
 li { 
   margin-left: 12px;
 }

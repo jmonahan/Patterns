@@ -47,6 +47,26 @@ a.action_icon {
 
 
 /**
+ * =HOVER
+**/
+a.action_icon:hover .text {
+  color: #0066CC;
+}
+a.action_icon:hover .icon_add {
+  background-position: 0 -32px;
+}
+a.action_icon:hover .icon_remove {
+  background-position: -16px -32px;
+}
+a.action_icon:hover .icon_delete {
+  background-position: -32px -32px;
+}
+a.action_icon:hover .icon_edit {
+  background-position: -48px -32px;
+}
+
+
+/**
  * =DISABLED
 **/
 div.disabled {

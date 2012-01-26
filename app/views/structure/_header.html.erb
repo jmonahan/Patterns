@@ -1,12 +1,10 @@
 <div class="header clear_float">
   <div class="app_name">
-    RUIPF: Rails UI Pattern Framework
+    <%= link_to "RUIPF: Rails UI Pattern Framework", {:controller=>'patterns', :action=>'index'} %>
   </div>
   <ul class="nav">
     <li>
-      <a href="#">
-        Link1
-      </a>
+      <%= link_to "Sample: Tables", {:controller=>'samples', :action => 'table'} %>
     </li>    
     <li>
       <a href="#">
@@ -20,3 +18,4 @@
     </li>
   </ul>
 </div>
+

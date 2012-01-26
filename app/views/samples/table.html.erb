@@ -1,0 +1,99 @@
+<style>
+  .intro {
+    margin-bottom: 36px;
+    color: #666;
+    padding: 12px;
+    font-style: italic;
+    background: #E1F2EF;
+  }
+  .intro ul {
+    margin-left: 12px;
+  }
+  .list td {
+    width: 33%;
+  }
+  .list tr.new_row {
+    display: none;
+  }
+</style>
+<h1>
+  Sample Page 1
+</h1>
+<div class="intro">
+<p>
+  This is a sample page to demonstrate a few key patterns.  We have a sample table of name/value pairs and a few interactions to add/remove items from that list.  
+</p>
+<p>
+  Items demoed are:
+</p>
+<ul>
+  <li>
+    action icons
+  </li>
+  <li>
+    tables styling
+  </li>
+  <li>
+    lightbox
+  </li>
+</ul>
+</div>
+<table class="list">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Value
+    </th>
+    <th>
+    </th>
+  </tr>
+  <tr>
+    <td>
+      Foo
+    </td>
+    <td>
+      Bar
+    </td>
+    <td>
+       <%= action_icon("remove") %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      month
+    </td>
+    <td>
+      October
+    </td>
+    <td>
+       <%= action_icon("remove") %>
+    </td>
+  </tr>
+  <tr class="new_row">
+    <td>
+      <input type="text" />
+    </td>
+    <td>
+      <input type="text" />      
+    </td>
+    <td>
+       <%= action_icon("remove") %>
+    </td>
+  </tr>
+</table>
+<%= action_icon("add") %>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  
+  $(".action_icon_remove").live("click", function(){
+    $(this).closest("tr").remove();
+  });
+  
+  $(".action_icon_add").click(function(index){
+    $("tr.new_row").clone().appendTo("table.list").removeClass("new_row");
+  });
+});
+</script>

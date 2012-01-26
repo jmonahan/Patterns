@@ -5,7 +5,7 @@ module PatternsHelper
     type = type.downcase
     
     action_icon_tag = "a"
-    action_icon_classes = "action_icon #{type} clear_float"
+    action_icon_classes = "action_icon action_icon_#{type} clear_float"
     if options[:enabled] == false
       action_icon_classes += " disabled"
       action_icon_tag = "div"

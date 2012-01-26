@@ -28,8 +28,15 @@
   font-weight: 100;
   float: left;
 }
+.header .app_name a:hover {
+  text-decoration: none;
+}
 .header a{
   color: #EEE;
+}
+.header ol, 
+.header ul {
+  list-style: none;
 }
 .header .nav{
   float: left;

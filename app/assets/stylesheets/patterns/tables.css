@@ -1,0 +1,36 @@
+/**
+ * tables.css
+ *
+ * Styling for the different tables 
+ *
+ * =LIST
+ * =SELECTABLE
+**/
+
+
+/**
+ * =LIST
+**/
+table.list {
+  width: 100%;
+}
+.list th, 
+.list td {
+  padding: 6px;
+  text-align: left;
+  border: 1px solid #CCC;
+}
+
+.list th {
+  background: #CCC;
+  text-align: left;
+  padding: 6px;
+  color: #333;
+  font-size: 11px;
+  background: url(../table_header_bg.png) 0 0 repeat-x #D7D7D7;
+}
+
+
+/**
+ * =SELECTABLE
+**/
