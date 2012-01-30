@@ -1,0 +1,39 @@
+/**
+ * dialogs.css
+ *
+ * Styling for the different dialog popups 
+ *
+ * =OVERRIDE PLUGIN
+**/
+
+
+/**
+ * =OVERRIDE PLUGINn
+**/
+.ui-dialog {
+  padding: 0;
+}
+.ui-corner-all {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -khtml-border-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.ui-widget-header {
+  border: 0;
+  background: url(../table_header_bg.png) 0 0 repeat-x #D7D7D7;
+  color: #000;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "san-serif";
+  font-weight: 800;
+  font-size: 12px;
+}
+.ui-widget-header .ui-icon {
+  background-image: url(../plugins/jquery-ui/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-content {
+  border: 1px solid #333;
+  background: #FFF;
+  -moz-box-shadow: 5px 5px 15px #888;
+  -webkit-box-shadow: 5px 5px 15px #888;
+  box-shadow:  5px 5px 15px #888;
+}

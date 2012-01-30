@@ -1,0 +1,32 @@
+/**
+ * dialog_v1.css
+ *
+**/
+
+
+/**
+ * =PLUGINS
+**/
+.ui-dialog .ui-dialog-titlebar {
+padding: 4px 12px;
+position: relative;
+}
+.ui-widget-header {
+  background: #00A9FF;
+  color: 000;
+  font-size: 16px;
+  padding: 12px;
+}
+.ui-widget-header .ui-icon {
+  background-image: url(../plugins/jquery-ui/images/ui-icons_222222_256x240.png);
+}
+.ui-widget-content {
+  border: 2px solid #008dd3;
+  background: #FFF;
+  -moz-box-shadow: 0 0 15px #006496;
+  -webkit-box-shadow: 0 0 15px #006496;
+  box-shadow: 0 0 15px #006496;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+}

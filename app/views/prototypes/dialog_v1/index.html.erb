@@ -1,0 +1,32 @@
+<style>
+
+  .section {
+    height: 300px;
+  }
+</style>
+<h1>
+  Prototype: Dialog v1 test
+</h1>
+
+<p>
+  This is a test to show how the prototype is a fixed space in the source code to play with overriding the app's default patterns.
+</p>
+
+
+<div class="section">
+  <div id="dialog" title="Basic dialog">
+    <p>
+      This is a test to show how the prototype is a fixed space in the source code to play with overriding the app's default patterns.
+    </p>
+  </div>
+  
+</div>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $( "#dialog" ).dialog({ height: 250, minWidth: 250 });
+});
+</script>

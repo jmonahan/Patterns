@@ -2,9 +2,10 @@
 <%= stylesheet_link_tag  "structure/reset.css", "structure/application.css", "structure/layout.css" %>
 
 <%# import plugins %>
+<%= stylesheet_link_tag  "plugins/jquery-ui/jquery-ui-1.8.17.custom.css" %>
 
 <%# import app plugins, which could override plugins %>
-<%= stylesheet_link_tag  "patterns/action_icons.css", "patterns/tables.css" %>
+<%= stylesheet_link_tag  "patterns/action_icons.css", "patterns/tables.css", "patterns/dialogs.css" %>
 
 <%# import views, which have the final say on styling %>
 <%= stylesheet_link_tag  "views/structure.css" %>

@@ -10,7 +10,8 @@ Patterns::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
   
-  match 'samples/foo' => 'samples#table'
+  match 'samples/table' => 'samples#table'
+  match 'samples/dialog' => 'samples#dialog'
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase

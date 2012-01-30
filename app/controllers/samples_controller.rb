@@ -5,5 +5,8 @@ class SamplesController < ApplicationController
   
   def table
   end
+  
+  def dialog
+  end
 
 end

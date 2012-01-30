@@ -1,0 +1,38 @@
+<style>
+  .intro {
+    margin-bottom: 36px;
+    color: #666;
+    padding: 12px;
+    font-style: italic;
+    background: #E1F2EF;
+  }
+  .section {
+    height: 100px;
+  }
+</style>
+<h1>
+  Sample Dialog
+</h1>
+<div class="intro">
+<p>
+  This is a sample page to demonstrate a few key patterns.  It shows off how to use a generic dialog box.  After this demo, look at the dialog_v1 prototype to see how the prototypes can override default app patterns.
+</p>
+</div>
+
+<div class="section">
+  <div id="dialog" title="Basic dialog">
+    <p>
+      This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.
+    </p>
+  </div>
+  
+</div>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $( "#dialog" ).dialog();
+});
+</script>
