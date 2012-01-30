@@ -1,8 +1,8 @@
 Patterns::Application.routes.draw do
   resources :patterns
 
-  match 'patterns/prototype/:folder/:template', :to => 'prototype#render_template'
-#  map.prototype "prototype/:folder/:template", :controller => "prototype", :action => "render_template"
+  match 'patterns/prototypes/:folder/:template', :to => 'prototypes#render_template'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

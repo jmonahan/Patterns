@@ -1,3 +1,16 @@
+<%# import foundational structure of app %>
 <%= stylesheet_link_tag  "structure/reset.css", "structure/application.css", "structure/layout.css" %>
+
+<%# import plugins %>
+
+<%# import app plugins, which could override plugins %>
 <%= stylesheet_link_tag  "patterns/action_icons.css", "patterns/tables.css" %>
+
+<%# import views, which have the final say on styling %>
 <%= stylesheet_link_tag  "views/structure.css" %>
+
+<%# import prototype styling for rapid prototypes %>
+<% if params[:controller] == 'prototypes' %>
+  <%= stylesheet_link_tag  "prototypes/#{params[:folder]}.css" %>
+<% end %>
+
